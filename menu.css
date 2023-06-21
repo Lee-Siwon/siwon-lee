@@ -51,3 +51,21 @@
 .dropdown-content a:hover {
     background-color: #F5F5DC;
 }
+
+.main a{
+    font-size: 30px;
+    padding: 10px 18px;
+    text-decoration: none;
+    overflow: hidden;
+    border: none;
+    background-color:#a9a9a9;
+    color: black;
+    float: right;
+}
+
+.main a:hover{
+    background-color: #ddd;
+    paddig: 10px 18px;
+    text-decoration: none;
+    color: black;
+}
