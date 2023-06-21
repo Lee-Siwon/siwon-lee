@@ -52,7 +52,7 @@
     background-color: #F5F5DC;
 }
 
-.main a{
+.top-menu a{
     font-size: 30px;
     padding: 10px 18px;
     text-decoration: none;
@@ -63,7 +63,7 @@
     float: right;
 }
 
-.main a:hover{
+.top-menu a:hover{
     background-color: #ddd;
     paddig: 10px 18px;
     text-decoration: none;
