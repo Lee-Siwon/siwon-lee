@@ -69,3 +69,23 @@
     text-decoration: none;
     color: black;
 }
+
+term {
+    background-color: #00a3ff;
+    color:black;
+    font-style: italic;
+    font-size: 30px;
+    display:inline-block;
+    width:900px;
+    border-bottom:3px solid black;
+}
+
+.content{
+    background-color: white;
+    color: black;
+    padding: 2px;
+    font-size: 20px;
+    min-width: 900px;
+    max-width: 900px;
+    border-style: solid;
+}
