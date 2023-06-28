@@ -1,3 +1,4 @@
 # course_math
-Basic mathematic for SKKU lecture.
+Basic mathematic Based on SKKU lecture Curriculum.
+<br/>
 No copies are allowed without permission.
