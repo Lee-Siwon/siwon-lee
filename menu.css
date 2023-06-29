@@ -76,7 +76,7 @@ term {
     font-style: italic;
     font-size: 35px;
     display:inline-block;
-    width:1500px;
+    width: 75%;
     border-bottom:3px solid black;
 }
 
@@ -86,15 +86,15 @@ term {
     padding:2px;
     text-align:justify;
     font-size: 25px;
-    margin-top: 2em;
-    min-width: 1500px;
-    max-width: 1500px;
+    margin-top: 5%;
+    min-width: 75%;
+    max-width: 75%;
     border-style: solid;
 }
 
 .content-box a{
     display:inline-block;
-    text-indent:1.5em;
+    text-indent:1em;
     margin-left:0.5em;
 }
 
@@ -102,7 +102,8 @@ term {
     border: 0px;
     text-indent: 1.5em;
     margin-left: 0.5em;
-    margin-top: 2em;
+    margin-top: 2%;
+    margin-right: 5%;
     text-align:justify;
     font-size: 20px;
     background-color: white;
@@ -123,10 +124,10 @@ term {
     background-color: white;
     color: black;
     font-size: 25px;
-    min-width: 1500px;
-    max-width: 1500px;
-    margin-top: 1em;
-    margin-left: 0.5em;
+    min-width: 70%;
+    max-width: 70%;
+    margin-top: 2%;
+    margin-right: 5%;
     padding: 2px;
     text-align: justify;
     display: inline-block;
@@ -139,7 +140,7 @@ term {
 }
 
 .answer{
-    width: 1500px;
+    width: 70%;
     text-align: justify
     margin-left: 0.5em;
     background-color: white;
