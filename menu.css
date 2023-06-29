@@ -97,7 +97,7 @@ term {
     margin-left:0.5em;
 }
 
-.paragraph {
+.paragraph-box {
     border: 0px;
     text-indent: 1.5em;
     margin-left: 0.5em;
@@ -108,17 +108,17 @@ term {
     color: black;
 }
 
-.paragraph a{
+.paragraph-box a{
     font-color: blue;
     font-size:30px;
 }
 
-.paragraph proof{
+.paragraph-box proof{
     font-color:black;
     font-size:25px;
 }
 
-.solution{
+.solution-box{
     background-color: white;
     color: black;
     font-size: 25px;
@@ -132,7 +132,7 @@ term {
     border-style: solid;
 }
 
-.solution problem{
+.solution-box problem{
     margin-left: 0.5em;
     text-weight: 800;
 }
