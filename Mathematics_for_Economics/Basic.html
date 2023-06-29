@@ -54,9 +54,21 @@
         <problem style="border-bottom:3px solid black">Select all number types</problem>
         <br>
         <problem>1. $$\pi$$</problem>
-        <button onclick="solution()">Answer</button>
-        <div id="answer" style="display:none;">
+        <button onclick="solution(1)">Answer</button>
+        <div id="answer1" style="display:none;">
             Solution: $$\mathbb{R}, \mathbb{P}$$
+        </div>
+        <br>
+        <problem>2. $$A \Leftarrow B$$</problem>
+        <button onclick="solution(2)">Answer</button>
+        <div id="answer2" style="display:none;">
+            Solution: B implies A
+        </div>
+        <br>
+        <problem>3. Definition of f(n) is $$\frac{n(n+1)}{2}$$. Shows f(x) definition using symbol.</problem>
+        <button onclick="solution(3)">Answer</button>
+        <div id="answer3" style="display:none;">
+            Solution: f(x) := $$\frac{n(n+1)}{2}$$
         </div>
     </div>
 

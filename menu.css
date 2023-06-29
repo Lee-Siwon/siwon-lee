@@ -139,7 +139,43 @@ term {
     text-weight: 800;
 }
 
-.answer{
+.answer1{
+    width: 70%;
+    text-align: justify
+    margin-left: 0.5em;
+    background-color: white;
+    text-weight:600
+    margin-top: 0.5em;
+}
+
+.answer2{
+    width: 70%;
+    text-align: justify
+    margin-left: 0.5em;
+    background-color: white;
+    text-weight:600
+    margin-top: 0.5em;
+}
+
+.answer3{
+    width: 70%;
+    text-align: justify
+    margin-left: 0.5em;
+    background-color: white;
+    text-weight:600
+    margin-top: 0.5em;
+}
+
+.answer4{
+    width: 70%;
+    text-align: justify
+    margin-left: 0.5em;
+    background-color: white;
+    text-weight:600
+    margin-top: 0.5em;
+}
+
+.answer5{
     width: 70%;
     text-align: justify
     margin-left: 0.5em;
