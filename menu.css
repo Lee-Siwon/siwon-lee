@@ -74,9 +74,9 @@ term {
     background-color: #00a3ff;
     color:black;
     font-style: italic;
-    font-size: 30px;
+    font-size: 35px;
     display:inline-block;
-    width:900px;
+    width:1500px;
     border-bottom:3px solid black;
 }
 
@@ -84,9 +84,10 @@ term {
     background-color: white;
     color: black;
     padding:2px;
-    font-size: 20px;
-    min-width: 900px;
-    max-width: 900px;
+    text-align:justify;
+    font-size: 25px;
+    min-width: 1500px;
+    max-width: 1500px;
     border-style: solid;
 }
 
@@ -94,4 +95,53 @@ term {
     display:inline-block;
     text-indent:1.5em;
     margin-left:0.5em;
+}
+
+.paragraph {
+    border: 0px;
+    text-indent: 1.5em;
+    margin-left: 0.5em;
+    margin-top: 2em;
+    text-align:justify;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+}
+
+.paragraph a{
+    font-color: blue;
+    font-size:30px;
+}
+
+.paragraph proof{
+    font-color:black;
+    font-size:25px;
+}
+
+.solution{
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    min-width: 1500px;
+    max-width: 1500px;
+    margin-top: 2em;
+    margin-left: 0.5em;
+    padding: 2px;
+    text-align: justify;
+    display: inline-block;
+    border-style: solid;
+}
+
+.solution problem{
+    margin-left: 0.5em;
+    text-weight: 800;
+}
+
+.answer{
+    width: 1500px;
+    text-align: justify
+    margin-left: 0.5em;
+    background-color: white;
+    text-weight:600
+    margin-top: 0.5em;
 }
