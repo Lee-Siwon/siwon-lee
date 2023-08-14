@@ -16,6 +16,18 @@
 </head>
 <body>
 
+    <div style="margin-top: 20px; background-color:#a9a9a9;">
+        <div class="top-menu">
+            <font size="10pt" color="black">
+                <b>
+                    Chapter 1. Convex, Concave, Countable, and other Basic Notation
+                </b>
+                <a></a>
+            </font>
+        </div>
+    </div>
+    <br>
+
     <div class="content-box">
         <term>Basic Number Symbol</term>
         <a>
@@ -105,7 +117,19 @@
         <term>Bounded</term>
         <br>
         <a>
-            <p>Exist</p>
+            <p>f := $$\mathbb{R}$$ $$\rightarrow$$ $$\mathbb{I}$$</p>
+            <p>$$\mathbb{I}$$ = [a,b] or [a,b) or (a,b] or (a,b) $$\iff$$ f and $$\mathbb{I}$$ bounded on [a,b] or [a,b) or (a,b] or (a,b) </p>
+            <p>f unbounded $$\iff$$ f is not bounded</p>
+        </a>
+    </div>
+
+    <div class="content-box">
+        <term>Bounded above and below</term>
+        <br>
+        <a>
+            <p>f := $$\mathbb{R} \rightarrow \mathbb{I}$$</p>
+            <p>$$\exists M \in \mathbb{R}$$ s.t. $$ x \leq M$$ for all $$x \in \mathbb{I}$$ $$\iff$$ f and $$\mathbb{I}$$ is bound above</p>
+            <p>$$\exists M \in \mathbb{R}$$ s.t. $$ x \geq M$$ for all $$x \in \mathbb{I}$$ $$\iff$$ f and $$\mathbb{I}$$ is bound below</p>
         </a>
     </div>
 
@@ -113,31 +137,40 @@
         <term>Supremum</term>
         <br>
         <a>
-            <p>Exist</p>
+            <p>f := $$\mathbb{R} \rightarrow \mathbb{I}$$</p>
+            <p>Let M be upper bound set</p>
+            <p>x $$\in M$$ s.t. $$S \leq y$$ for all y $$\in M$$ $$\iff$$ x is supremum of f or $$\mathbb{I}$$</p>
         </a>
     </div>
 
     <div class="content-box">
-        <term>infimum</term>
+        <term>Infimum</term>
         <br>
         <a>
-            <p>Exist</p>
+            <p>f := $$\mathbb{R} \rightarrow \mathbb{I}$$</p>
+            <p>Let M be lower bound set</p>
+            <p>x $$\in M$$ s.t. $$S \geq y$$ for all y $$\in M$$ $$\iff$$ x is infimum of f or $$\mathbb{I}$$</p>
         </a>
     </div>
 
     <div class="content-box">
-        <term>Countable, Uncountable</term>
+        <term>Injection, Surjection, Bijection </term>
         <br>
         <a>
-            <p>Exist</p>
+            <p>Let f: X $$\rightarrow$$ Y and $$x_1, x_2$$ $$\in$$ X</p>
+            <p>f: 1-1 (injection) $$\iff$$ $$x_1$$ = $$x_2$$ implies f($$x_1$$) = f($$x_2$$) </p>
+            <p>f: onto (surjection) $$\iff$$ $$\forall y \in Y$$, $$\exists$$ $$\in$$ X s.t. y = f(x)</p>
+            <p>f: bijection $$\iff$$ f: 1-1 and onto $$\iff$$ $$x_1$$ = $$x_2$$ implies f($$x_1$$) = f($$x_2$$) and f($$x_1$$) = f($$x_2$$) implies $$x_1$$ = $$x_2$$</p>
         </a>
     </div>
 
     <div class="content-box">
-        <term>Increasing, Decreasing, Monotone</term>
+        <term>Finite, Countable </term>
         <br>
         <a>
-            <p>Exist</p>
+            <p>Let $$\mathbb{E}$$ be a set</p>
+            <p>$$\mathbb{E}$$ is countable $$\iff$$ $$\exists$$ a bijection f: {1,2,3,$$\cdots$$,n} $$\rightarrow$$ $$\mathbb{E}$$</p>
+            <p>$$\mathbb{E}$$ is countable $$\iff$$ $$\exists$$ a bijection f: $$\mathbb{N}$$ $$\rightarrow$$ $$\mathbb{E}$$</p>
         </a>
     </div>
 
@@ -145,15 +178,8 @@
         <term>Sequence</term>
         <br>
         <a>
-            <p>Exist</p>
-        </a>
-    </div>
-
-    <div class="content-box">
-        <term>Function</term>
-        <br>
-        <a>
-            <p>Exist</p>
+            <p>Function f: $$\mathbb{N}$$ $$\rightarrow$$ $$\mathbb{R}$$ where $$x_n$$ = f(n)</p>
+            <p>Notation: $$\{x_n\}_{n\in\mathbb{N}}$$, {$$x_n$$}</p>
         </a>
     </div>
 
@@ -161,7 +187,10 @@
         <term>Convex</term>
         <br>
         <a>
-            <p>Exist</p>
+            <p>Let I be an interval as [a,b] and f: I $$\rightarrow$$ $$\mathbb{R}$$</p>
+            <p>f is convex $$\iff$$ f($$\lambda$$x + (1-$$\lambda$$)y) $$\leq$$ $$\lambda f(x) + (1-\lambda)f(y)$$</p>
+            <p>f is strict convex $$\iff$$ f($$\lambda$$x + (1-$$\lambda$$)y) < $$\lambda f(x) + (1-\lambda)f(y)$$</p>
+            <p>f is strong convex $$\iff$$ f($$\lambda$$x + (1-$$\lambda$$$y) - $$\alpha$$$$\lVert$$$$\lambda$$x + (1-$$\lambda$$)y)$$\rVert^2$$ $$\leq$$ $$\lambda$$f(x) + (1-$$\lambda$$)f(y) -$$\lambda\alpha\lVert x\rVert^2$$ - (1 - $$\lambda$$)$$\alpha\lVert y \rVert^2$$</p>
         </a>
     </div>
 
@@ -169,7 +198,10 @@
         <term>Concave</term>
         <br>
         <a>
-            <p>Exist</p>
+            <p>Let I be an interval as [a,b] and f: I $$\rightarrow$$ $$\mathbb{R}$$</p>
+            <p>f is convex $$\iff$$ f($$\lambda$$x + (1-$$\lambda$$)y) $$\geq$$ $$\lambda f(x) + (1-\lambda)f(y)$$</p>
+            <p>f is strict convex $$\iff$$ f($$\lambda$$x + (1-$$\lambda$$)y) > $$\lambda f(x) + (1-\lambda)f(y)$$</p>
+            <p>f is strong convex $$\iff$$ f($$\lambda$$x + (1-$$\lambda$$$y) - $$\alpha$$$$\lVert$$$$\lambda$$x + (1-$$\lambda$$)y)$$\rVert^2$$ $$\geq$$ $$\lambda$$f(x) + (1-$$\lambda$$)f(y) -$$\lambda\alpha\lVert x\rVert^2$$ - (1 - $$\lambda$$)$$\alpha\lVert y \rVert^2$$</p>
         </a>
     </div>
 
