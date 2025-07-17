@@ -1,3 +1,10 @@
+.profile-photo {
+    width: 250px;  /* Adjust width as needed */
+    height: auto;  /* Maintains aspect ratio */
+    object-fit: cover;
+    border: 2px solid #000; /* Optional */
+}
+
 .dropdown{
     position: relative;
     display: inline-block;
