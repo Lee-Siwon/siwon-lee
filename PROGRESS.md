@@ -12,14 +12,15 @@ Updated: 2026-10-09
 6. [x] PC·모바일 화면, 홈페이지 링크 및 기존 Profile 주소 검토
 7. [ ] 논문별 새 제목·상태·소개와 최근 발표 이력 확정
 8. [ ] 필요시 논문 원고 수정 — 대상 파일과 수정 방향 확인 후 진행
-9. [x] GitHub 초안 PR용 변경사항과 검토 자료 준비
+9. [x] 수정 브랜치 GitHub 업로드 및 초안 PR 자료 준비
 10. [ ] 확정된 내용을 main에 반영하고 siwon-lee.com 배포 확인
 
 ## 확정된 프로필과 디자인 방향
 
 - 직함: PhD Candidate in Economics, Washington University in St. Louis.
 - 연구 관심: Financial Markets, Asset Pricing, Exchange Rates, International Trade, Machine Learning.
-- 연구를 학력보다 앞에 배치하고, 논문 제목·상태·펼쳐 읽는 소개를 구분한다.
+- 학력을 소개 직후의 첫 번째 본문 섹션에 배치하고, 논문 제목·상태·펼쳐 읽는 소개를 구분한다.
+- PhD Candidate 표기는 [WashU 경제학과 공식 프로필](https://economics.washu.edu/people/siwon-lee)로 연결한다.
 - PC에서는 프로필과 탐색 메뉴를 왼쪽에 고정하고 본문을 오른쪽에 배치한다. 모바일에서는 한 열로 정리한다.
 - 참고 구성: [Federal Reserve — Ryan Decker](https://www.federalreserve.gov/econres/ryan-a-decker.htm), [Stanford — Adrien Auclert](https://aauclert.people.stanford.edu/).
 
