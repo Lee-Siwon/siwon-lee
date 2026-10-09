@@ -17,11 +17,11 @@ Website: [siwon-lee.com](https://siwon-lee.com/)
 
 Serve the repository with `python -m http.server 8766 --bind 127.0.0.1`, then open `http://127.0.0.1:8766/`.
 
-Replace `CV.pdf` only with a new PDF supplied by Siwon Lee. Keep the existing download URL. TeX sources are maintained locally and excluded from this public repository. Contact information is omitted from the homepage; the contents of the supplied CV are preserved.
+Replace `CV.pdf` only with a new PDF supplied by Siwon Lee. Keep the existing download URL. TeX sources are maintained locally and excluded from this public repository. The homepage includes the contact email; phone and LinkedIn are omitted. The contents of the supplied CV are preserved.
 
 Keep paper titles, status labels, and presentation details consistent between the homepage and the CV. Mark future attendance explicitly as planned.
 
-The current content and downloadable `CV.pdf` follow the supplied CV dated October 9, 2026. The PDF is copied unchanged. For papers available on SSRN, show the authors and link to the corresponding abstract page. Do not infer which paper was presented from a conference attendance entry.
+The current content and downloadable `CV.pdf` follow the supplied CV dated October 9, 2026. The PDF is copied unchanged. For papers available on SSRN, show the authors and link to the corresponding abstract page. Show confirmed presentation venues below the corresponding paper; the household-portfolio working paper is linked to the ZUEL workshop as requested. Display workshop and conference dates as month and year.
 
 ## Hosting
 
