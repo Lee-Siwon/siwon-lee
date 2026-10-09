@@ -13,7 +13,7 @@ Updated: 2026-10-09
 7. [x] CV의 게재 예정 논문 2편·Working Papers 4편·Work in Progress 2편 반영, SSRN 공저자·링크 명시
 8. [ ] 필요시 논문 원고 수정 — 대상 파일과 수정 방향 확인 후 진행
 9. [x] 수정 브랜치 GitHub 업로드 및 [초안 PR 생성](https://github.com/Lee-Siwon/siwon-lee/pull/1)
-10. [ ] 확정된 내용을 main에 반영하고 siwon-lee.com 배포 확인
+10. [x] 기존 PR #1 main 병합 확인; 새 UI 수정은 별도 브랜치에서 진행
 
 ## 확정된 프로필과 디자인 방향
 
@@ -23,16 +23,18 @@ Updated: 2026-10-09
 - PhD Candidate 표기는 [WashU 경제학과 공식 프로필](https://economics.washu.edu/people/siwon-lee)로 연결한다.
 - PC에서는 프로필과 탐색 메뉴를 왼쪽에 고정하고 본문을 오른쪽에 배치한다. 모바일에서는 한 열로 정리한다.
 - 참고 구성: [Federal Reserve — Ryan Decker](https://www.federalreserve.gov/econres/ryan-a-decker.htm), [Stanford — Adrien Auclert](https://aauclert.people.stanford.edu/).
+- 추가 UI 요청: 흰색·차콜·회색 중심의 색상, 작은 제목, 번호 없는 탐색 메뉴, 관심사만 표시하는 소개.
+- 홈페이지 연락처: 이메일만 표시하고 LinkedIn·전화번호는 제외한다.
 
 ## 반영한 행사
 
 | 행사 | 일정 | 장소 | 상태 |
 | --- | --- | --- | --- |
-| 2026 ZUEL International Workshop on Frontiers in Finance Research | Oct 9, 2026 | Online | Presented (새 CV 기준) |
-| Fall 2026 Midwest Macroeconomics Meeting | Nov 13–15, 2026 | Texas Tech University, Lubbock | Planned attendance |
-| 7th ACM International Conference on AI in Finance (ICAIF 2026) | Nov 14–17, 2026 | Milan, Italy | Planned attendance |
+| 2026 ZUEL International Workshop on Frontiers in Finance Research | Oct, 2026 | Online | Presented (새 CV 기준) |
+| Fall 2026 Midwest Macroeconomics Meeting | Nov, 2026 | Texas Tech University, Lubbock | Planned attendance |
+| 7th ACM International Conference on AI in Finance (ICAIF 2026) | Nov, 2026 | Milan, Italy | Planned attendance |
 
-두 예정 행사 모두 참석한다는 사용자 확인을 받았다. 주최 측에서 시간대를 조정할 예정이다. ZUEL 발표 사실은 새 CV에 따라 반영했으며, 발표 논문 제목은 확인 후 연결한다. ICAIF proceedings 두 편은 CV의 forthcoming 표기를 유지한다.
+두 예정 행사 모두 참석한다는 사용자 확인을 받았다. 주최 측에서 시간대를 조정할 예정이다. 사용자의 최신 요청에 따라 기존 Second Year Paper인 현재 「The Impact of Tariff and Trade Policy Uncertainty Shocks on Household Asset Portfolios」 아래에 ZUEL 발표를 Conference 항목으로 연결한다. ICAIF proceedings 두 편은 CV의 forthcoming 표기를 유지한다.
 
 ## 새 CV에 따른 연구 목록
 
@@ -53,4 +55,4 @@ Updated: 2026-10-09
 - 간단한 구현과 형식 정리는 Luna가 맡고, 주 에이전트가 내용과 결과를 검토한다.
 - TeX 소스는 로컬에 보관하고 공개 저장소에는 CV PDF만 올린다.
 - CV는 사용자가 제공하는 PDF만 반영하고 기존 PDF의 내용을 임의로 수정하지 않는다.
-- 홈페이지에는 이메일·LinkedIn·전화번호를 표시하지 않는다.
+- 홈페이지에는 이메일만 표시하고 LinkedIn·전화번호는 표시하지 않는다.
