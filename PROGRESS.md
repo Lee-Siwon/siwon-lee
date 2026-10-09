@@ -12,7 +12,7 @@ Updated: 2026-10-09
 6. [x] PC·모바일 화면, 홈페이지 링크 및 기존 Profile 주소 검토
 7. [ ] 논문별 새 제목·상태·소개와 최근 발표 이력 확정
 8. [ ] 필요시 논문 원고 수정 — 대상 파일과 수정 방향 확인 후 진행
-9. [x] 수정 브랜치 GitHub 업로드 및 초안 PR 자료 준비
+9. [x] 수정 브랜치 GitHub 업로드 및 [초안 PR 생성](https://github.com/Lee-Siwon/siwon-lee/pull/1)
 10. [ ] 확정된 내용을 main에 반영하고 siwon-lee.com 배포 확인
 
 ## 확정된 프로필과 디자인 방향
