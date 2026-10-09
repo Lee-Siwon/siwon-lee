@@ -13,7 +13,7 @@ Updated: 2026-10-09
 7. [x] CV의 게재 예정 논문 2편·Working Papers 4편·Work in Progress 2편 반영, SSRN 공저자·링크 명시
 8. [ ] 필요시 논문 원고 수정 — 대상 파일과 수정 방향 확인 후 진행
 9. [x] 수정 브랜치 GitHub 업로드 및 [초안 PR 생성](https://github.com/Lee-Siwon/siwon-lee/pull/1)
-10. [x] 기존 PR #1·#2 main 병합 확인; 후속 CV 버튼·글자 크기 수정은 별도 브랜치에서 진행
+10. [x] 기존 PR #1·#2·#3 main 병합 확인; 데스크톱 폭 수정은 별도 브랜치에서 진행
 
 ## 확정된 프로필과 디자인 방향
 
@@ -25,6 +25,7 @@ Updated: 2026-10-09
 - 참고 구성: [Federal Reserve — Ryan Decker](https://www.federalreserve.gov/econres/ryan-a-decker.htm), [Stanford — Adrien Auclert](https://aauclert.people.stanford.edu/).
 - 추가 UI 요청: 흰색·차콜·회색 중심의 색상, 작은 제목, 번호 없는 탐색 메뉴, 관심사만 표시하는 소개.
 - 후속 UI 요청: 현재 색상을 유지하고 왼쪽 CV 버튼의 화살표 형태를 복구한다. 글자 크기는 이름 24px(모바일 22px), 섹션 18px, 본문·논문 제목 14px, 부가 정보 12px를 기준으로 맞춘다.
+- 데스크톱 폭 요청: 페이지 최대 폭을 1,440px로 확대하고 본문이 남은 가로 공간을 사용하도록 한다. 모바일 배치와 현재 색상·글자 크기는 유지한다.
 - 홈페이지 연락처: 이메일만 표시하고 LinkedIn·전화번호는 제외한다.
 
 ## 반영한 행사

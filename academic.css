@@ -17,7 +17,7 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--link); outline
 .skip-link { position: fixed; z-index: 10; top: 10px; left: 12px; transform: translateY(-150%); padding: 7px 11px; background: #fff; color: var(--ink); border: 1px solid var(--rule); }
 .skip-link:focus { transform: none; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
-.site-shell { display: grid; grid-template-columns: 200px minmax(0, 720px); gap: 48px; max-width: 1060px; min-height: 100vh; margin: 0 auto; padding: 42px 46px 64px; background: #fff; }
+.site-shell { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 48px; max-width: 1440px; min-height: 100vh; margin: 0 auto; padding: 42px 40px 64px; background: #fff; }
 .sidebar { position: sticky; top: 28px; align-self: start; min-width: 0; }
 .identity { display: flex; flex-direction: column; align-items: flex-start; gap: 14px; }
 .portrait { display: block; width: 136px; height: 160px; object-fit: cover; object-position: center 28%; }
@@ -33,7 +33,7 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--link); outline
 .section-nav { display: grid; gap: 1px; margin-top: 26px; }
 .section-nav a { display: block; padding: 4px 0; color: var(--muted); font-size: 12px; text-decoration: none; }
 .section-nav a:hover, .section-nav a:focus-visible { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
-.content { min-width: 0; max-width: 720px; }
+.content { min-width: 0; max-width: none; }
 .intro { padding: 6px 0 28px; }
 h1, h2, h3, h4, p { margin-top: 0; }
 h1, h2, h3, h4 { color: var(--ink); }
@@ -63,7 +63,7 @@ summary { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; 
 summary::-webkit-details-marker { display: none; }
 summary::before { content: "+"; color: #555; font: 15px/1 system-ui, sans-serif; }
 details[open] summary::before { content: "−"; }
-details > p { max-width: 670px; margin: 7px 0 1px; color: var(--body); font-size: 14px; line-height: 1.55; }
+details > p { max-width: 900px; margin: 7px 0 1px; color: var(--body); font-size: 14px; line-height: 1.55; }
 .listing-list { display: grid; }
 .listing { display: grid; grid-template-columns: 124px minmax(0, 1fr); gap: 16px; padding: 11px 0; border-bottom: 1px solid #ededed; }
 .listing:last-child { border-bottom: 0; }
