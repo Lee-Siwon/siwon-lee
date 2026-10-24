@@ -1,6 +1,6 @@
 # Homepage and CV refresh
 
-Updated: 2026-10-23
+Updated: 2026-10-24
 
 ## 작업 순서와 진행 상황
 
@@ -13,7 +13,8 @@ Updated: 2026-10-23
 7. [x] CV의 게재 예정 논문 2편·Working Papers 4편·Work in Progress 2편 반영, SSRN 공저자·링크 명시
 8. [ ] 필요시 논문 원고 수정 — 대상 파일과 수정 방향 확인 후 진행
 9. [x] 수정 브랜치 GitHub 업로드 및 [초안 PR 생성](https://github.com/Lee-Siwon/siwon-lee/pull/1)
-10. [x] 기존 PR #1–#7 main 병합 확인; 본문 폭 조정은 별도 브랜치에서 진행
+10. [x] 기존 PR #1–#8 main 병합 확인; 전체 1,440px·본문 940px 폭 유지
+11. [x] 메인에는 학력·연구·리뷰를 남기고 발표·교육·수상·장학금·회원 이력을 별도 페이지로 분리
 
 ## 확정된 프로필과 디자인 방향
 
@@ -60,3 +61,16 @@ Updated: 2026-10-23
 - TeX 소스는 로컬에 보관하고 공개 저장소에는 CV PDF만 올린다.
 - CV는 사용자가 제공하는 PDF만 반영하고 기존 PDF의 내용을 임의로 수정하지 않는다.
 - 홈페이지에는 이메일만 표시하고 LinkedIn·전화번호는 표시하지 않는다.
+
+## 페이지 구성과 공식 기사 (2026-10-24)
+
+- 메인: 프로필과 관심사 → Education → Research → Reviewing. 학력을 첫 본문 섹션으로 유지한다.
+- 별도 페이지: Presentations (발표 및 학회 참석), Teaching, Awards & Honors, Scholarships & Funding, Memberships.
+- 왼쪽 메뉴에서 각 페이지와 메인의 학력·연구·리뷰 섹션으로 이동한다. 전체 폭·본문 폭·색상·글자 크기·CV 화살표 버튼을 유지한다.
+- [SKKU–KEIO 공식 기사](https://ecostat.skku.edu/ecostat/news.do?articleNo=170736&mode=view): 2024-04-04 게시, 2024년 1월 도쿄 게이오대 심포지엄과 영화산업 발표 제목을 확인했다.
+- [2022 SKKU ACE 공식 기사](https://ecostat.skku.edu/ecostat/news.do?articleNo=139474&mode=view): 2022-09-20 게시, 이시원 학생의 최우수 논문상 및 인플레이션 예측 논문 제목을 확인했다. 공식 행사명은 EGSC가 아닌 SKKU ACE (Annual Conference on Economics)이다. CV의 Aug 2022 수상 기록과 Sep 2022 시상·발표 일정을 구별한다.
+- 수상·장학금은 제공 CV의 명칭과 등급을 기준으로 기재한다. Round 2 진출·참가상을 상위 수상으로 바꾸지 않는다. 개인 수상을 확인할 수 없는 일반 프로그램 소개를 수상 증빙으로 표현하지 않는다.
+- [AFA](https://afajof.org/)와 [ACM](https://www.acm.org/)은 학회 공식 홈페이지로 연결한다.
+- Teaching의 Sungkyun Tutoring에는 [성대 영문 프로그램 소개](https://www.skku.edu/skku/campus/skk_comm/popup_news_en.do?article.offset=0&articleLimit=10&articleNo=51684&mode=view)를 연결한다. 개인 수상 기사가 아닌 일반 프로그램 소개로 표시한다.
+- 검증 완료: PC 1,920px에서 전체 1,440px·본문 940px 유지, 모바일 390px에서 6개 페이지 모두 가로 넘침 없음, 페이지 간 탐색·활성 메뉴·공식 수상 기사 열기 확인. 로컬 경로·앵커·기본 마크업 검사 통과.
+- 기존 연구 8편·SSRN 제목 및 공저자·리뷰 3건을 유지한다. CV.pdf는 원본 해시가 같으며 이번 작업에서 수정하지 않았다.
