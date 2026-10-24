@@ -1,19 +1,19 @@
 # Homepage and CV refresh
 
-Updated: 2026-10-09
+Updated: 2026-10-23
 
 ## 작업 순서와 진행 상황
 
 1. [x] 최신 GitHub 코드와 CV 확인, 별도 수정 브랜치 생성
 2. [x] 첫 화면을 연구자 프로필로 변경하고 Math Note 메뉴 숨기기
 3. [x] 프로필, 학력, 연구 소개, 교육 이력을 CV와 일치시키기
-4. [x] 2026-10-09 CV의 최신 논문 제목·상태·연구 소개로 재작성
-5. [x] 사용자가 제공한 2026-10-09 CV PDF로 교체 (내용 변경 없이 복사)
+4. [x] 2026-10-23 논문·CV 기준 Homogeneity 제목 갱신 및 SSRN 직접 확인 후 연결
+5. [x] 사용자가 제공한 2026-10-23 CV PDF로 교체 (내용 변경 없이 복사)
 6. [x] PC·모바일 화면, 홈페이지 링크 및 기존 Profile 주소 검토
 7. [x] CV의 게재 예정 논문 2편·Working Papers 4편·Work in Progress 2편 반영, SSRN 공저자·링크 명시
 8. [ ] 필요시 논문 원고 수정 — 대상 파일과 수정 방향 확인 후 진행
 9. [x] 수정 브랜치 GitHub 업로드 및 [초안 PR 생성](https://github.com/Lee-Siwon/siwon-lee/pull/1)
-10. [x] 기존 PR #1·#2·#3 main 병합 확인; 데스크톱 폭 수정은 별도 브랜치에서 진행
+10. [x] 기존 PR #1·#2·#3·#4 main 병합 확인; 논문·CV·ACM 회원 이력 수정은 별도 브랜치에서 진행
 
 ## 확정된 프로필과 디자인 방향
 
@@ -45,6 +45,8 @@ Updated: 2026-10-09
 - Work in Progress: 대주주 주식 매도 영향(Draft), 노동시장과 가계 금융취약성(Research Proposal).
 - SSRN: [Lost in Translation or Strategic Choice? LLM Evidence on Multilingual Risk Disclosure Asymmetry](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7546558), Wonwoo Kim and Siwon Lee (SSRN 저자 순서). CV 제목에 포함된 링크와 SSRN 공개 서지를 대조했다.
 - Academic Service: ICAIF Main Conference 2026 및 WashU 경제학 대학원생 학회 2025·2026 심사 이력.
+- Homogeneity: [Homogeneity, Systemic Risk, and the Regulation of Automated Trading](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7652479), Siwon Lee. 제공 논문과 새 CV의 제목을 대조하고, SSRN 저자 페이지 및 논문 상세 페이지에서 제목·단독 저자를 직접 확인했다 (Posted: Oct 22, 2026).
+- Memberships: American Finance Association, Association for Computing Machinery (ACM); ACM은 사용자의 추가 요청으로 반영한다.
 
 공식 일정 출처: [ZUEL](https://dtf.zuel.edu.cn/szjsyxdjr-szjs_xshd/szjsyxdjr_cont_news/details-42474.html), [Midwest](https://www.depts.ttu.edu/economics/news-announcements/midwest-macroeconomics-meetings-2026.php), [ICAIF](https://icaif2026.org/).
 
